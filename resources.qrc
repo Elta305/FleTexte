@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/static/SourceCodePro-Black.ttf</file>
+        <file>fonts/static/SourceCodePro-BlackItalic.ttf</file>
+        <file>fonts/static/SourceCodePro-Bold.ttf</file>
+        <file>fonts/static/SourceCodePro-BoldItalic.ttf</file>
+        <file>fonts/static/SourceCodePro-ExtraBold.ttf</file>
+        <file>fonts/static/SourceCodePro-ExtraBoldItalic.ttf</file>
+        <file>fonts/static/SourceCodePro-ExtraLight.ttf</file>
+        <file>fonts/static/SourceCodePro-ExtraLightItalic.ttf</file>
+        <file>fonts/static/SourceCodePro-Italic.ttf</file>
+        <file>fonts/static/SourceCodePro-Light.ttf</file>
+        <file>fonts/static/SourceCodePro-LightItalic.ttf</file>
+        <file>fonts/static/SourceCodePro-Medium.ttf</file>
+        <file>fonts/static/SourceCodePro-MediumItalic.ttf</file>
+        <file>fonts/static/SourceCodePro-Regular.ttf</file>
+        <file>fonts/static/SourceCodePro-SemiBold.ttf</file>
+        <file>fonts/static/SourceCodePro-SemiBoldItalic.ttf</file>
+        <file>fonts/OFL.txt</file>
+        <file>fonts/README.txt</file>
+        <file>fonts/SourceCodePro-Italic-VariableFont_wght.ttf</file>
+        <file>fonts/SourceCodePro-VariableFont_wght.ttf</file>
+    </qresource>
+</RCC>
