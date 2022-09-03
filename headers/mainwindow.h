@@ -5,6 +5,10 @@
 
 #include <QTabWidget>
 #include <QPlainTextEdit>
+#include <QLabel>
+#include <QTreeView>
+#include <QSplitter>
+#include <QFileSystemModel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -35,11 +39,30 @@ private slots:
 
     QPlainTextEdit* currentTextEdit();
 
+    QLabel* currentStatus();
+
     void textEditChanged();
+
+    void on_actionSave_triggered();
+
+    void on_actionSave_As_triggered();
+
+    void updateStatus();
+
+    void on_actionOpen_Folder_triggered();
+
+    void openTreeViewFile(QModelIndex index);
 
 private:
     Ui::MainWindow *ui;
 
     QTabWidget *tabsWidget = new QTabWidget(this);
+
+    QTreeView *treeView = new QTreeView;
+
+    QSplitter *window = new QSplitter(this);
+
+    QFileSystemModel *dirModel = new QFileSystemModel(this);
+
 };
 #endif // MAINWINDOW_H
